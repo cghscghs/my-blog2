@@ -1,0 +1,157 @@
+# ParticleX Configuration
+# https://github.com/theme-particlex/hexo-theme-particlex
+
+# Avatar image
+avatar: /images/avatar.jpg
+
+# Home page background image
+background:
+    - /images/background.jpg
+
+# Loading image
+loading: /images/loading.gif
+
+# Optional colors for category and tag
+colors:
+    - "#ffa2c4"
+    - "#00bcd4"
+    - "#03a9f4"
+    - "#00a596"
+    - "#ff7d73"
+
+# ParticleX theme icon is adopts the Font Awesome 6
+# https://fontawesome.com
+
+# Main menu navigation
+menu:
+    首页:
+        name: house
+        theme: solid
+        link: /
+    关于:
+        name: id-card
+        theme: solid
+        link: /about
+    归档:
+        name: box-archive
+        theme: solid
+        link: /archives
+    分类:
+        name: bookmark
+        theme: solid
+        link: /categories
+    标签:
+        name: tags
+        theme: solid
+        link: /tags
+
+# Side info card
+card:
+    enable: true
+    description: |
+        欢迎来到我的博客！
+        分享技术与生活
+        热爱编程，热爱生活
+    iconLinks:
+    friendLinks:
+
+# Footer info
+footer:
+    since: 2025
+    # Customize the server domain name ICP
+    ICP:
+        enable: false
+        code:
+        link:
+
+# Polyfill
+# https://polyfill.io
+polyfill:
+    enable: true
+    features:
+        - default
+
+# Highlight.js
+# https://highlightjs.org
+highlight:
+    enable: true
+    style: github
+
+# KaTeX math rendering
+math:
+    enable: false
+
+# Image preview
+preview:
+    enable: true
+
+# Article encryption
+crypto:
+    enable: false
+
+# Search
+search:
+    enable: false
+
+# giscus
+# https://github.com/giscus/giscus
+giscus:
+    enable: false
+    src: https://giscus.app/client.js
+    repo:
+    repoID:
+    category:
+    categoryID:
+    mapping: pathname
+    strict: 0
+    reactionsEnabled: 1
+    emitMetadata: 0
+    inputPosition: bottom
+    theme: preferred_color_scheme
+    lang:
+
+# Gitalk
+# https://github.com/gitalk/gitalk
+gitalk:
+    enable: false
+    clientID:
+    clientSecret:
+    repo:
+    owner:
+    admin:
+    language:
+    proxy:
+
+# Waline
+# https://github.com/walinejs/waline
+waline:
+    enable: true
+    serverURL: https://jianxin-blog2.vercel.app
+    locale:
+        placeholder: '欢迎留下你的评论~ 支持 Markdown 语法'
+    commentCount: true
+    pageview: true
+    emoji:
+        - https://unpkg.com/@waline/emojis@1.2.0/weibo
+        - https://unpkg.com/@waline/emojis@1.2.0/bilibili
+        - https://unpkg.com/@waline/emojis@1.2.0/qq
+        - https://unpkg.com/@waline/emojis@1.2.0/tieba
+        - https://unpkg.com/@waline/emojis@1.2.0/alus
+    meta:
+        - nick
+        - mail
+    requiredMeta:
+        - nick
+    lang: zh-CN
+    wordLimit: 0
+    login: enable
+    pageSize: 10
+
+# Twikoo
+# https://github.com/imaegoo/twikoo
+twikoo:
+    enable: false
+    envID:
+    region:
+    path: location.pathname
+    lang:
