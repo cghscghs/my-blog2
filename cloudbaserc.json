@@ -1,0 +1,18 @@
+{
+  "envId": "{{envId}}",
+  "functionRoot": "./functions",
+  "functions": [],
+  "framework": {
+    "name": "hexo",
+    "plugins": {
+      "client": {
+        "use": "@cloudbase/framework-plugin-website",
+        "inputs": {
+          "buildCommand": "hexo generate",
+          "outputPath": "public",
+          "cloudPath": "/"
+        }
+      }
+    }
+  }
+}
